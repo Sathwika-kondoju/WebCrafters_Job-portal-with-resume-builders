@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Builder</title>
+  <link rel="icon" type="image/x-icon" href="https://static.vecteezy.com/system/resources/thumbnails/013/061/846/small_2x/job-logo-design-job-search-icon-with-magnifying-glass-choose-people-for-hire-symbol-job-or-employee-logo-free-vector.jpg">
+  <link rel="stylesheet" href="Resume1.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Resume Builder</h1>
+    <form id="resumeForm">
+      
+      <div class="section">
+        <h2>Personal Information</h2>
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" placeholder="Your Full Name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+      </div>
+
+    
+      <div class="section">
+        <h2>Education</h2>
+        <label for="degree">Degree:</label>
+        <input type="text" id="degree" name="degree" placeholder="Your Degree" required>
+
+        <label for="school">School/University:</label>
+        <input type="text" id="school" name="school" placeholder="Your School/University" required>
+
+        <label for="graduationYear">Graduation Year:</label>
+        <input type="number" id="graduationYear" name="graduationYear" placeholder="Year" required>
+      </div>
+
+      
+      <div class="section">
+        <h2>Work Experience</h2>
+        <label for="jobTitle">Job Title:</label>
+        <input type="text" id="jobTitle" name="jobTitle" placeholder="Your Job Title">
+
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company" placeholder="Your Company">
+
+        <label for="duration">Duration:</label>
+        <input type="text" id="duration" name="duration" placeholder="e.g., Jan 2020 - Dec 2022">
+      </div>
+
+      
+      <div class="section">
+        <h2>Skills</h2>
+        <label for="skills">List Your Skills (comma-separated):</label>
+        <textarea id="skills" name="skills" placeholder="e.g., HTML, CSS, JavaScript"></textarea>
+      </div>
+
+      <button type="submit"><a href="https://www.microsoft.com/en-in/microsoft-365/word">Generate Resume </a></button>
+    </form>
+  </div>
+</body>
+</html>

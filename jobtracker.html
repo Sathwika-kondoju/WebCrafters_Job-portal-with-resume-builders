@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Tracker</title>
+  <link rel="stylesheet" href="jobtracker1.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Job Tracker</h1>
+  </header>
+  <main>
+    <div class="tracker"><section class="job-form">
+        <h2>Want to find a job?</h2>
+        <form id="jobForm">
+          <label for="jobTitle">Job Title</label>
+          <input type="text" id="jobTitle" name="jobTitle" placeholder="Job Title" required>
+          
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company" placeholder="Company Name" required>
+          
+          <label for="status">Status</label>
+          <select id="status" name="status" required>
+            <option value="applied">Applied</option>
+            <option value="interviewing">Interviewing</option>
+            <option value="offered">Offered</option>
+            <option value="rejected">Rejected</option>
+          </select>
+          
+          <button type="submit">Add Job</button>
+        </form>
+      </section>
+      <section class="job-list">
+        <h2>Job List</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Job Title</th>
+              <th>Company</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="jobTable">
+          </tbody>
+        </table>
+      </section></div>
+  </main>
+  <footer>
+    <p>Job Tracker &copy; 2025</p>
+  </footer>
+  <script src="jobtracker.js"></script>
+</body>
+</html>

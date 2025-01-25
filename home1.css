@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 65px;
+    width: 65px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(209, 56, 209);
+    height: 30px;
+    width: 50px;
+    padding: 3px;
+    align-content: space-around;
+    margin: 15px 0px;
+}
+p{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 19px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    background-color: purple;
+}
+ul{
+    display: flex;
+}
+ul li{
+    padding: 0px 15px;
+    list-style: none;
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(45, 6, 52);
+}
+.con{
+  width: 35VW;
+  border: 2px solid black;
+  margin-top: 25VH;
+  padding-top: 50px; 
+  padding-bottom: 50px;
+  background-color: rgb(237, 225, 240);
+  border-radius: 10px;
+}
+span{
+    border: 2px solid blueviolet;
+    padding: 5px 10px;
+    background-color: blueviolet;
+    border-radius: 13px;
+    text-align: center;
+}
+button{
+    color: rgb(2, 2, 250);
+    background-color: rgb(183, 183, 241);
+    padding: 5px 9px;
+    border-radius:12px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
